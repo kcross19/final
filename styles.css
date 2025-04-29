@@ -1,0 +1,132 @@
+/* CSS COLORS */
+ :root {
+    --dk-red:#8B0000;
+    --dk-gray:#A9A9A9;
+    --blk:#000000;
+    --white:#ffffff;
+
+/* FONTS */
+    --font-family: "p22-dearest-pro", sans-serif;
+   
+    
+/* STYLES FOR BOTH INDEX AND CONTACT*/
+ }
+    body {
+      padding: 0;
+      width: calc(1000px - 4rem);
+      margin: 0 auto;
+      background-color: var(--dk-red);
+    }
+    main{
+        font-size: bold;
+        background-color: var(--blk);
+        color: var(--white);
+        padding: 1rem;
+        width: calc(1000px - 4rem);
+        margin: 0 auto;
+    }
+    .sketches {
+        position: relative;
+        opacity: 0.5;
+        border: 5px solid var(--blk);
+   /* INDEX PAGE CSS*/    
+}
+    h1 {
+        font-family: 'p22-dearest-pro', sans-serif, arial;
+        font-size: 12ch;
+        font-weight: bold;
+        text-align: center;
+        color: var(--blk);
+        position: absolute;
+        top: 200px;
+        left: 0;
+        width: 100%;
+        margin: 0 auto;
+        width: px;
+        height: 50px;
+    }
+    #top nav {
+        width: 50%;
+        margin: 0 auto;
+        padding: 1rem;
+        font-family: "p22-dearest-pro", sans-serif;
+        font-size: 5ch;
+        
+          
+    }
+    #top nav ul{
+            list-style-type: none;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 1rem;
+            padding: 0;
+            top: -15px;
+    }
+    #top nav a{
+        display: block;
+        padding: 1rem;
+        text-decoration: none;
+        font-weight: bold;
+        background-color: var(--blk);
+        color: var(--white);
+    }
+    #top a:hover{
+        color: var(--blk);
+        background-color: var(--white);
+    }
+    #index h2 {
+        text-align:center;
+    }
+    #copyright1 {
+        text-align: center;
+    }
+    #contact h2 {
+        font-family: 'p22-dearest-pro', sans-serif, arial;
+        font-size: 12ch; 
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+    #contact p {
+        font-size: 18px;
+        margin-top: 0%;
+    }
+    #contact {
+       position: relative;
+       top: -15px;
+    }
+    .form p{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin: 20px;
+
+    }
+      fieldset { 
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+      }
+      #my-comments {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+      }
+      
+      #my-submit {
+        font-family: 'p22-dearest-pro', sans-serif, arial;;
+        background-color: var(--dk-red);
+        color: var(--blk)
+      }
+      #my-submit:hover {
+        background-color: var(--blk);
+        color: var(--dk-red);
+      }
+      footer {
+        text-align: center;
+      }
+ 
+    
+   
+    
